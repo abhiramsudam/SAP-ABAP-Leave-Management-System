@@ -1,0 +1,21 @@
+Employee Master Table: ZZEMPLOYEE_25
+
+Fields:
+CLIENT        CLNT    3
+EMP_ID        CHAR10
+NAME          CHAR40
+DEPT          CHAR20
+MANAGER_ID    CHAR10
+
+Leave Request Table: ZZLEAVE_REQST_25
+
+Fields:
+CLIENT        CLNT     3
+REQ_ID        CHAR10
+EMP_ID        CHAR10
+START_DATE    DATS
+END_DATE      DATS
+LEAVE_TYPE    CHAR15
+STATUS        CHAR10
+REQUEST_DATE  DATS     (optional)
+APPROVER_ID   CHAR10   (optional)
